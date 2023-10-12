@@ -16,5 +16,8 @@ npm start ./tests/<whatever>.js
 
 # Adding new tests
 
-Export a function `mkTests(operationCount: number)` and returns an object where the keys are the test names, and the values are the functions you want to compare.
+- Add a new file: ./tests/<your-test>.js
+- Export the function from the file: `mkTests(operationCount: number)`
+
+The function should return an object where the keys are the test names, and the values are the functions you want to compare.
 
