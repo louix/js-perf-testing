@@ -1,0 +1,12 @@
+{
+  "name": "perftesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node --expose-gc test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
